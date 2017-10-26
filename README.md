@@ -4,34 +4,8 @@ You can use the [editor on GitHub](https://github.com/LudwikPR/ludwikpr.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+# Rancher is sorta.. awesome.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Today I wondered if there was a better way than Portainer to launch dockers and stuff and my jaw dropped when I found out and installed Rancher. It's really the most brainless way to manage Docker/Swarm I've found so far. So far I fucked it up only... 3 times. Just enough to write a small bash script to wipe Docker off my dev machine, install it back and then fire up a brand new Rancher installation. Pretty proud of myself.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LudwikPR/ludwikpr.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+https://github.com/LudwikPR/dockerfarm/blob/master/refresh-farm.sh
